@@ -8,6 +8,10 @@ This portfolio showcases my skills, projects, education, and development journey
 
 [View My Portfolio](https://sneha-sanganna.github.io/FUTURE_FS_01/)
 
+💻 GitHub Repository:
+
+https://github.com/Sneha-sanganna/FUTURE_FS_02
+
 ## 👩‍💻 About Me
 
 I am a Computer Science and Engineering student interested in **full-stack web development** and building practical, user-friendly web applications.
