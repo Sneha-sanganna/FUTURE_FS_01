@@ -6,11 +6,11 @@ This portfolio showcases my skills, projects, education, and development journey
 
 ## 🔗 Live Portfolio
 
-[View My Portfolio](https://sneha-sanganna.github.io/FUTURE_FS_01/)
+https://sneha-sanganna.github.io/FUTURE_FS_01
 
 💻 GitHub Repository:
 
-https://github.com/Sneha-sanganna/FUTURE_FS_02
+https://github.com/Sneha-sanganna/FUTURE_FS_01
 
 ## 👩‍💻 About Me
 
