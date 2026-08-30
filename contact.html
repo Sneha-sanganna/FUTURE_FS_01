@@ -1,4 +1,4 @@
-
+```html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="description"
-          content="Contact Sneha Sanganna, Python and Django Developer. Get in touch for projects, opportunities and collaborations.">
+          content="Contact Sneha Sanganna, Full Stack Web Developer specializing in Python and Django.">
 
     <meta name="author" content="Sneha Sanganna">
 
@@ -90,9 +90,9 @@
                 </h2>
 
                 <p>
-                    I am always interested in learning, building
-                    useful applications and connecting with people
-                    who have interesting ideas and opportunities.
+                    I am interested in full-stack web development,
+                    learning new technologies, building useful
+                    applications and working on real-world projects.
                 </p>
 
             </div>
@@ -134,9 +134,7 @@
 
                         <small>LOCATION</small>
 
-                        <p>
-                            Bangalore, India
-                        </p>
+                        <p>Bangalore, India</p>
 
                     </div>
 
@@ -155,64 +153,190 @@
 
                         <small>FOCUS</small>
 
-                        <p>
-                            Python • Django • Web Development
-                        </p>
+                        <p>Full Stack Web Development</p>
 
                     </div>
 
                 </div>
 
+
+                <!-- SOCIAL PROFILES -->
+
+                <div class="contact-detail">
+
+                    <div class="contact-icon">
+                        ↗
+                    </div>
+
+                    <div>
+
+                        <small>SOCIAL PROFILES</small>
+
+                        <div class="social-links">
+
+                            <a
+                                href="https://www.linkedin.com/in/sneha-sanganna-7a04a7356"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                LinkedIn ↗
+                            </a>
+
+                            <a
+                                href="https://github.com/Sneha-sanganna"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                GitHub ↗
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
             </div>
 
         </div>
 
 
-        <!-- RIGHT SIDE -->
+        <!-- RIGHT SIDE: CONTACT FORM -->
 
-        <div class="contact-right">
+        <div class="contact-form-card">
 
-            <div class="social-card">
+            <div class="form-header">
 
-                <span class="contact-label">
-                    SOCIAL PROFILES
-                </span>
+                <span>04</span>
 
-                <h2>
-                    Connect <span>With Me</span>
-                </h2>
+                <div>
 
-                <p>
-                    You can find my professional work and
-                    projects on the following platforms.
-                </p>
+                    <h2>Send Me a Message</h2>
 
-
-                <div class="social-links">
-
-                    <a
-                        href="https://www.linkedin.com/in/sneha-sanganna-7a04a7356"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        LinkedIn ↗
-                    </a>
-
-
-                    <a
-                        href="https://github.com/Sneha-sanganna"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        GitHub ↗
-                    </a>
+                    <p>
+                        I'll get back to you as soon as possible.
+                    </p>
 
                 </div>
 
             </div>
 
-        </div>
 
+            <!-- FORMSPREE FORM -->
+
+            <form
+                class="contact-form"
+                id="contactForm"
+                action="https://formspree.io/f/xoeqvbjo"
+                method="POST"
+            >
+
+                <div class="form-row">
+
+
+                    <!-- NAME -->
+
+                    <div class="form-group">
+
+                        <label for="name">
+                            Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Your Name"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- EMAIL -->
+
+                    <div class="form-group">
+
+                        <label for="email">
+                            Email
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Your Email"
+                            required
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <!-- SUBJECT -->
+
+                <div class="form-group">
+
+                    <label for="subject">
+                        Subject
+                    </label>
+
+                    <input
+                        type="text"
+                        id="subject"
+                        name="subject"
+                        placeholder="Subject"
+                        required
+                    >
+
+                </div>
+
+
+                <!-- MESSAGE -->
+
+                <div class="form-group">
+
+                    <label for="message">
+                        Message
+                    </label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="6"
+                        placeholder="Write your message..."
+                        required
+                    ></textarea>
+
+                </div>
+
+
+                <!-- SEND BUTTON -->
+
+                <button
+                    type="submit"
+                    class="btn primary-btn send-btn"
+                >
+                    Send Message
+                    <span>→</span>
+                </button>
+
+
+                <!-- SUCCESS MESSAGE -->
+
+                <p
+                    id="successMessage"
+                    class="success-message"
+                    style="display: none;"
+                >
+                    ✓ Message sent successfully!
+                </p>
+
+            </form>
+
+        </div>
 
     </div>
 
